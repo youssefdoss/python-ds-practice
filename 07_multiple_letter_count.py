@@ -8,6 +8,7 @@ def multiple_letter_count(phrase):
         {'Y': 1, 'a': 1, 'y': 1}
     """
 
+    # Use get with default of 0 and increment in either case
     letter_count = {}
 
     for letter in phrase:

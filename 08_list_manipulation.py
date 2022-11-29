@@ -41,6 +41,7 @@ def list_manipulation(lst, command, location, value=None):
         True
     """
 
+    # Can use the None falling out but not necessarily a big improvement
     if not ((command == 'add' or command == 'remove') and (location == 'beginning' or location == 'end')):
         return None
     
