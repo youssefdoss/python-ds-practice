@@ -30,7 +30,7 @@ def mode(nums):
     
     
     for num in nums:
-        num_freq[num]=num_freq.get(num, 0)+1
+        num_freq[num] = num_freq.get(num, 0) + 1
 
     max_value = max(num_freq.values())
     
